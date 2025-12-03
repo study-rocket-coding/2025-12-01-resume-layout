@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-xl: 81rem;
+}
+
 @layer base {
   body {
-    padding: 48px 64px;
     font-family: "Roboto", "Noto Sans TC", sans-serif;
     line-height: 1.5;
     background-color: #fbfbfb;
